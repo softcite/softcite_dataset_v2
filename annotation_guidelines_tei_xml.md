@@ -173,10 +173,15 @@ When the software publisher is repeated with the software name in combination in
 
 The publisher appears two times, first as one word (`Microsoft`), followed by a more comprehensive form (`Microsoft Corporation`) after the software name. To simplify the mark-up, we only annotate in the mention the second form, following the above rule.  
 
+* if the publisher appears whithin a bibliographical reference marker (e.g. `(Schwab and al., 2011)` or `(R Development Core Team, 2020)`), it is not annotated. 
 
 ### URL
 
 The mark-up  `url` identifies an hyperlink associated to the software. The URL can link to the code repository, to the software project page, to its documentation, etc. Although very rare, it is possible to have several `url` component for a software mention. 
+
+If the URL is found in a footnote outside the rest of the mention context, typically without any other text, it is not annotated. 
+
+If the URL appears as clickable PDF annotation only - for example the name of the software is clickable in the PDF and trigger a GOTO action to call the web browser to this URL, but the URL string is not visible in the text, it is not annotated. If the URL appears in the text and is clickable, it is annotated similarly as the non-clickable URL.
 
 ### Language
 
@@ -364,4 +369,3 @@ Radiographic errors were recorded on individual tick sheets and the information 
 ```
 
 `<rs>` elements can have an addition attribute `@cert`. This attribute gives a value of certainty between 0 and 1 about the annotation provided by the annotator. It can be seen as a self-assessment of the quality of the produced annotation. When an annotation is edited by a curator, it has normally no `@cert` attribue. 
-    
