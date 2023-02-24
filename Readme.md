@@ -50,10 +50,15 @@ Numerous XML tools and libraries allow to parse and extract information as neede
 
 2. The `json/` subdirectory contains converted JSON files for the XML corpus. The JSON format is provided for users more confortable with JSON than XML. The name of the files is similar as for the above XML files but with `.json` extension. The JSON uses offsets for identifying the position of the annotation spans in paragraphs, which makes it less readable.  
 
-## Some Python scripts
+## Python script
 
-These Python scripts are related to the new version of the dataset and covers in particular the conversion of the master TEI XML corpus into JSON.
+We include the Python script used to convert the master TEI XML corpus into JSON format under `scripts/TEI2LossyJSON.py`
 
+Use like this:
+
+```console
+python3 scripts/TEI2LossyJSON.py --tei-file xml/softcite_corpus-full.tei.xml --output json/
+```
 
 <!--
 ## About the creation and improvement of the dataset
@@ -61,11 +66,9 @@ These Python scripts are related to the new version of the dataset and covers in
 This section describes the methodology and quality standard associated to this dataset. 
 -->
 
-
-
 ## Acknowledgement
 
-We thank Alfred P. Sloan Foundation for supporting this work. We also thank our collaborators and student annotators for making this dataset gold-standard and available.
+We thank Alfred P. Sloan Foundation and NextGenerationEU/France Relance for supporting this work. We also thank our collaborators and student annotators for making this dataset gold-standard and available.
 
 ## License 
 

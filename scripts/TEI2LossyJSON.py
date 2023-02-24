@@ -1,8 +1,6 @@
 """
-    Convert the rich, unambiguous, standard, generic, extendable TEI XML format of GROBID and Pub2TEI into 
-    something similar to CORD-19 degraded JSON format (let's call it a working format)
-
-    Original version: https://github.com/howisonlab/softcite-dataset/blob/master/code/corpus/TEI2LossyJSON.py
+    Convert the TEI XML format produced by GROBID, Pub2TEI,etc. into 
+    something similar to CORD-19 degraded but convenient JSON format 
 """
 
 import argparse
