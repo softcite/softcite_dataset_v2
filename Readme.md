@@ -1,6 +1,6 @@
 # Softcite Dataset Version 2
 
-This repository contains the resources (data and scripts) related to the version 2.* of the Softcite dataset, a corpus of 4971 scientific articles with software mention annotations. This is a gold standard corpus, resulting from multi-stage annotations from a team of annotators and reconcialiation phases by curators to solve disagreements. The dataset is available under CC-BY license. 
+This repository contains the resources (data and scripts) related to the version 2.* of the Softcite dataset, a corpus of 4971 scientific articles with software mention annotations. This is a gold standard corpus, resulting from multi-stage annotations by a team of annotators and reconcialiation phases by curators to solve disagreements. The dataset is available under CC-BY license. 
 
 For the first versions of this dataset, see [here](https://github.com/howisonlab/softcite-dataset). This new repository is dedicated to new annotation iterations on the dataset and is independent from the previous repository for simplification. 
 
@@ -25,6 +25,10 @@ Annotations from the previous version of the dataset (v1.0) and this new release
 | publisher                | 1,111       | 1,311       |            
 | URL                      |   172       |  231        |            
 | programming language     |             |   71        |     
+
+The additional software mentions were spotted in the articles with automatic and manual screening. They were then validated via the normal double process with reconciliation in case of disagreement. 
+
+The refinement of the type of mentioned software and the encoding of the possible relationships between software mentions in the same paragraph have been realized with the same gold-standard annotation approach as the first version of the Softcite dataset, relying on two independent "blind" annotation by two different annotators, followed by a reconciliation by a curator in case of disagreement. 
 
 ### Guidelines
 
