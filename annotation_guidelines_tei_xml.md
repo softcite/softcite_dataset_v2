@@ -66,7 +66,7 @@ xml:id="PMC4968915-software-1">Matlab</rs> (<rs corresp="#PMC4968915-software-1"
 MA, USA).
 ```
 
-- **named software component:** `@subtype="environment"`, for a named software depending on another software environment mentioned in the mention context
+- **named software component:** `@subtype="component"`, for a named software depending on another software environment mentioned in the mention context
 to run. We always have a software environment expressed in the same mention context, and the dependency of the software component to the software environment is encoded with the `@corresp` pointer to the `xml:id` of the software environment. 
 
 ```xml
