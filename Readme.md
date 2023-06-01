@@ -1,6 +1,6 @@
 # Softcite Dataset Version 2
 
-This repository contains the resources (data and scripts) related to the version 2.* of the Softcite dataset, a corpus of 4971 scientific articles with software mention annotations. This is a gold standard corpus, resulting from multi-stage annotations by a team of annotators and reconcialiation phases by curators to solve disagreements. The dataset is available under CC-BY license. 
+This repository contains the resources (data and scripts) related to the version 2.* of the Softcite dataset, a corpus of 4971 scientific articles with software mention annotations. This is a gold standard corpus, resulting from multi-stage annotations by a team of annotators and reconciliation phases by curators to solve disagreements. The dataset is available under CC-BY license. 
 
 For the first versions of this dataset, see [here](https://github.com/howisonlab/softcite-dataset). This new repository is dedicated to new annotation iterations on the dataset and is independent from the previous repository for simplification. 
 
@@ -48,7 +48,7 @@ The versions 2.* of the Softcite dataset contains the following resources:
 
 Numerous XML tools and libraries allow to parse and extract information as needed. 
 
-2. The `json/` subdirectory contains converted JSON files for the XML corpus. The JSON format is provided for users more confortable with JSON than XML. The name of the files is similar as for the above XML files but with `.json` extension. The JSON uses offsets for identifying the position of the annotation spans in paragraphs, which makes it less readable.  
+2. The `json/` subdirectory contains converted JSON files for the XML corpus. The JSON format is provided for users more comfortable with JSON than XML. The name of the files is similar as for the above XML files but with `.json` extension. The JSON uses offsets for identifying the position of the annotation spans in paragraphs, which makes it less readable.  
 
 ## Python script
 
