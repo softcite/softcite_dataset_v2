@@ -1,8 +1,13 @@
 # Softcite Dataset Version 2
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7995565.svg)](https://doi.org/10.5281/zenodo.7995565)
+
 This repository contains the resources (data and scripts) related to the version 2.* of the Softcite dataset, a corpus of 4971 scientific articles with software mention annotations. This is a gold standard corpus, resulting from multi-stage annotations by a team of annotators and reconciliation phases by curators to solve disagreements. The dataset is available under CC-BY license. 
 
 For the first versions of this dataset, see [here](https://github.com/howisonlab/softcite-dataset). This new repository is dedicated to new annotation iterations on the dataset and is independent from the previous repository for simplification. 
+
+Find the Zenodo deposit of the new version here: [10.5281/zenodo.7995565](https://doi.org/10.5281/zenodo.7995565)
+
 
 ## Description of the dataset
 
